@@ -1,0 +1,79 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+h1 {
+	color: #0393FF;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.supporting {
+  background-image: url(s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+  color: #fff;
+  text-align: center;
+}
+
+.jumbotron {
+	background-color: #000;
+}
+
+.jumbotron a {
+  margin: 20px;
+  color: #fff;
+}
+
+.jumbotron .active {
+	color: #0393FF;
+  border: 1px solid #0393FF;
+  border-radius: 2px;
+  padding: 10px 20px;
+  background: transparent;
+}
+
+.main {
+	color: #fff;
+  text-align: center;
+  margin: 100px;
+}
+
+.form-inline {
+    margin-top: 100px;
+}
+
+#search {
+    background: transparent;
+    border: 0px;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 20px;
+    width: 400px;
+}
+
+.feature {
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  height: 380px;
+  padding: 100px;
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg);
+  background-size: cover;
+}
+
+.footer {
+	color: #fff;
+  padding: 100px;
+}
+
+.col-md-3 {
+	display: inline;
+}
